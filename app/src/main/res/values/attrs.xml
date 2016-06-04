@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScratchView">
+        <!-- 擦除的宽度-->
+        <attr name="penStrokeWidth" format="integer"/>
+        <!-- 蒙板图片 -->
+        <attr name="coverBitmap" format="reference"/>
+        <!-- 蒙板图片的scaleType -->
+        <attr name="coverBitmapFitStyle" >
+            <enum name="fitXY" value="0" />
+            <enum name="centerCrop" value="1"/>
+        </attr>
+        <!-- 当没有蒙板图片时,蒙板使用的颜色值 -->
+        <attr name="coverColor" format="color"/>
+    </declare-styleable>
+</resources>
